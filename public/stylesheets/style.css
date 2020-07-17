@@ -1,0 +1,141 @@
+.home {
+  background-color: #282c34;
+  min-height: 100vh;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: turquoise;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.logout {
+  color: turquoise;
+  font-size: x-large;
+}
+
+.logout2 {
+  text-align: center;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  display: inline-block;
+  align-items: center;
+  background-color: #282c34;
+  color: turquoise;
+  font-weight: 300;
+  font-family: monospace;
+  font-size: 22px;
+  letter-spacing: 8px;
+}
+
+.links {
+  text-align: center;
+}
+
+.hLinks {
+  text-align: center;
+}
+
+.aLink {
+  text-align: center;
+}
+
+a {
+  color:turquoise;
+  font-size: x-large;
+}
+
+a:hover {
+  text-align: center;
+  font-size: x-large;
+  color: hotpink;
+}
+
+.title {
+  text-align: center;
+}
+
+button {
+  background-color: turquoise;
+  color: #282c34;
+}
+
+#signup {
+  text-align: center;
+}
+
+h1 {
+ text-align: center;
+}
+
+h2 {
+ text-align: center;
+}
+
+
+#login{
+  text-align: center;
+}
+
+.deleteButton {
+  text-align: center;
+}
+
+#post {
+  text-align: center;
+}
+
+
+.adminEdit {
+  text-align: center;
+}
+
+.delete {
+  text-align: center;
+}
+
+.inputBox {
+   width: 230px;
+  height: 75px;
+}
+
+.inputPosts {
+  text-align: center;
+}
+
+.ul1{
+   list-style: none;
+}
+
+.inputButton {
+  background-color: turquoise;
+  color: #282c34;
+}
+
+.deleteButton {
+  text-align: center;
+}
+
+.backButton {
+   text-align: center;
+}
+
+.leftBack {
+  padding-left: 40px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<div class="toolbar" role="banner">
+  <h2 class="title">The "CRUD" Site</h2>
+</div>
+<br><br><br>
+<div class='hLinks'>
+    <a href="/users/home">Home</a>
+    <a href="/users/logout">Logout</a>
+     <a href="/users/profile">Profile</a>
+    <a href="/users/admin">Admin</a>
+</div><br>
+
+<h1>Admin Page</h1>
+<h2>Click on user to see their profile</h2><br>
+
+<ul class="ul1"> 
+  {{#each userData}}
+
+    <li>
+        <form method="POST" action="/users/admin/delete/{{UserId}} ">
+            <a href="/users/admin/editUser/{{UserId}}">{{FirstName}} {{LastName}}</a><br><br>
+            <input class="inputButton" type="submit" value="Delete User">
+        </form><br>
+    </li>
+  {{/each}}
+</ul><br><br>
+
+<div class="leftBack">
+  <a href="/users/profile">Back</a>
+</div>
